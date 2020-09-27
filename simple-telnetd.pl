@@ -12,9 +12,8 @@ use POSIX;
 use IO::Socket::INET;
 use IO::Socket::UNIX;
 
-    # CONFIG_FILE     => '/etc/simple-telnetd.conf',
 use constant {
-    CONFIG_FILE     => '/home/ymka/Applications/Perl/simple-telnetd.conf',
+    CONFIG_FILE     => '/etc/simple-telnetd.conf',
     PID_FILE 	    => '/tmp/simple-telnetd.pid',
 };
 
